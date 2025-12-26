@@ -373,19 +373,6 @@ Conv1 → DenseBlock(4 layers, growth=12) → Transition
 
 ---
 
-### Confusion Matrix Analysis (ResNet18)
-
-<div align="center">
-<img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
-</div>
-
-**Error Patterns**:
-- Rock ↔ Paper: Most common confusion (visual similarity in certain angles)
-- Scissors: Best recognized (distinctive finger configuration)
-- Real images: Higher confusion rate across all classes
-
----
-
 ### Qualitative Error Analysis
 
 <div align="center">
