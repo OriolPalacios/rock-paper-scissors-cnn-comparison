@@ -597,10 +597,6 @@ print(f"Test Accuracy: {results['accuracy']:.2%}")
 3. **Edge deployment**: Quantization/pruning for mobile (TFLite, ONNX)
 4. **Multi-modal fusion**: Combine RGB + depth data (if available)
 
-### Reproducibility
-- [ ] Publish annotated 30-image real test set
-- [ ] Release pretrained weights on HuggingFace Hub
-- [ ] Create interactive demo (Gradio/Streamlit)
 
 ---
 
